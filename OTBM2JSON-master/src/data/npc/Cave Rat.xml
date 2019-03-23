@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Cave Rat" access="1" level="1" maglevel="1" exp="10" pushable="1" speed="very very low">
+	<mana now="1" max="1"/>
+	<health now="30" max="30"/>
+	<look type="56" head="36" body="36" legs="36" feet="36" corpse="2025"/>
+        <combat defense="1" armor="1" change_probability="1" change_per="120" combat_dist="1" runlife="10" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="8" maxdamage="10" cycleticks="2000" probability="100"/>
+        </attacks>
+	<defenses>
+	</defenses>
+	<voices>		
+	</voices>
+	<loot>
+	</loot>
+    <summons>
+    </summons>
+</npc>

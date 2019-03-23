@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Dragon" level="1" maglevel="1" access="1" exp="700" speed="very low" pushable="0">
+	<mana now="1" max="1"/>
+	<health now="1000" max="1000"/>
+	<look type="34" head="34" body="34" legs="34" feet="34" corpse="2056"/>
+        <combat defense="30" armor="30"  change_probability="1" change_per="120" combat_dist="1" runlife="300" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="60" maxdamage="125" cycleticks="2000" probability="100"/>
+		<attack type="spell" name="exura" mindamage="50" maxdamage="140" cycleticks="3500" probability="25"/>
+		<attack type="spell" name="adori gran flam flam" mindamage="40" maxdamage="120" cycleticks="1500" probability="35"/>
+		<attack type="spell" name="exevo mort flam" mindamage="100" maxdamage="160" cycleticks="2500" probability="30"/>
+        </attacks>
+	<voices>		
+                <voice sentence="GRRRROOOOOOOOAAAAARRRR!" cycleticks="8000" probability="45"/>
+		<voice sentence="FCCHHHHHHHHHHHHHHHH" cycleticks="10000" probability="45"/>
+	</voices>
+        <summons>
+        </summons>
+	<defenses>
+		<defense immunity="fire"/>
+		<defense immunity="posion"/>
+	</defenses>
+	<loot>
+	</loot>
+</npc>

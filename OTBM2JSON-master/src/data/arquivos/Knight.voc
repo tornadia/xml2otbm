@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<player name="%nome%" account="%account%" sex="1" lookdir="0" exp="9300" voc="4" cash="300" level="10" maglevel="2" access="0" cap="800" pkills="0" mkills="0" pktime="0">
+<spawn x="167" y="80" z="7" />
+<temple x="167" y="80" z="7" />
+<mana now="200" max="200" spent="0"/>
+<health now="400" max="400" food="0"/>
+<look type="%type%" head="%head%" body="%body%" legs="%legs%" feet="%feet%"/>
+<skills>
+<skill skillid="0" level="10" tries="0"/>
+<skill skillid="1" level="10" tries="0"/>
+<skill skillid="2" level="10" tries="0"/>
+<skill skillid="3" level="40" tries="0"/>
+<skill skillid="4" level="10" tries="0"/>
+<skill skillid="5" level="40" tries="0"/>
+<skill skillid="6" level="10" tries="0"/>
+</skills>
+<inventory>
+<slot slotid="1"><item id="1730"/></slot>
+<slot slotid="2"><item id="1890"/></slot>
+<slot slotid="3"><item id="1411"/></slot>
+<slot slotid="4"><item id="1736"/></slot>
+<slot slotid="5"><item id="1788"/></slot>
+<slot slotid="6"><item id="1700"/></slot>
+<slot slotid="7"><item id="1877"/></slot>
+<slot slotid="8"><item id="1874"/></slot>
+</inventory>
+</player>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

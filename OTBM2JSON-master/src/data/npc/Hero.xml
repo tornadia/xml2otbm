@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Hero" access="1" level="1" maglevel="1" exp="1200" speed="very fast" pushable="0">
+	<mana now="1" max="1"/>
+	<health now="1400" max="1400"/>
+	<look type="73" head="114" body="114" legs="114" feet="114" corpse="2276"/>
+        <combat defense="80" armor="30" change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="125" maxdamage="250" cycleticks="2000" probability="100"/>
+		<attack type="distance" name="arrow" mindamage="0" maxdamage="130" cycleticks="2000" probability="50"/>
+        </attacks>
+	<defenses>
+		<defense immunity="fire"/>
+		<defense immunity="posion"/>
+		<defense immunity="energy"/>
+	</defenses>
+	<voices>		
+                <voice sentence="I am the Hero of the Monsters!" cycleticks="8000" probability="35"/>
+		<voice sentence="You can not destoy a Hero!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+        </summons>
+</npc>

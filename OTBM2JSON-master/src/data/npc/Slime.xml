@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Slime" level="1" maglevel="1" access="1" exp="160" pushable="0" speed="very low">
+	<mana now="1" max="1"/>
+	<health now="150" max="150"/>
+	<look type="19" head="35" body="35" legs="35" feet="35" corpse="1183"/>
+        <combat defense="5" armor="10" change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="green"/>
+        <attacks>
+		<attack type="melee" mindamage="50" maxdamage="80" cycleticks="2000" probability="100"/>
+        </attacks>
+	<defenses>
+		<defense immunity="posion"/>
+	</defenses>
+	<voices>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+		<summon name="Slime" cycleticks="2000" probability="40" times="1"/>
+        </summons>
+</npc>

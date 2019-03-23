@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Cyclops" access="1" level="1" maglevel="1" exp="150" pushable="1" speed="low">
+	<mana now="1" max="1"/>
+	<health now="260" max="260"/>
+	<look type="22" head="73" body="73" legs="73" feet="73" corpse="2020"/>
+        <combat defense="25" armor="20" change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="50" maxdamage="120" cycleticks="2000" probability="100"/>
+        </attacks>
+	<defenses>
+	</defenses>
+	<voices>		
+                <voice sentence="Yeahh I am great!" cycleticks="8000" probability="35"/>
+		<voice sentence="I can squeeze you!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+        </summons>
+</npc>

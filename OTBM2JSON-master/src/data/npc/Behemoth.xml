@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Behemoth" access="1" level="1" maglevel="1" exp="2500" pushable="0" speed="fast">
+	<mana now="1" max="1"/>
+	<health now="4000" max="4000"/>
+	<look type="55" head="55" body="55" legs="55" feet="55" corpse="2145"/>
+        <combat defense="140" armor="35" change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="150" maxdamage="400" cycleticks="2000" probability="100"/>
+		<attack type="distance" name="largerock" mindamage="50" maxdamage="250" cycleticks="2000" probability="55"/>
+        </attacks>
+	<defenses>
+		<defense immunity="fire"/>
+		<defense immunity="posion"/>
+		<defense immunity="energy"/>
+	</defenses>
+	<voices>		
+                <voice sentence="Come to take my balls!" cycleticks="8000" probability="35"/>
+		<voice sentence="I will hurt you!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+        </summons>
+</npc>

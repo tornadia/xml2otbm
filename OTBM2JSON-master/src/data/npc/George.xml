@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc monster="0" name="George" script="data/npc/scripts/NpcBarco.lua" access="3" level="1" maglevel="1" exp="0" speed="very very low" pushable="1">
+	<mana now="1" max="100"/>
+	<health now="1" max="1"/>
+	<look type="128" head="116" body="99" legs="10" feet="112"/>
+</npc>

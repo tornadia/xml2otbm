@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+
+<spells maxVoc="4">
+<spell name="Ultimate Healing" words="exura vita" maglv="8" mana="80" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+<vocation id="3" />
+</spell>
+<spell name="Intense Healing" words="exura gran" maglv="4" mana="40" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+<vocation id="3" />
+</spell>
+<spell name="Light Healing" words="exura" maglv="1" mana="25" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+<vocation id="3" />
+<vocation id="4" />
+</spell>
+<spell name="Ultimate Explosion" words="exevo gran mas vis" maglv="0" mana="800" enabled="1">
+<vocation id="1" />
+</spell>
+<spell name="Exori" words="exori" maglv="5" mana="200" enabled="1">
+<vocation id="4" />
+</spell>
+<spell name="Exori Vis" words="exori vis" maglv="3" mana="20" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Exori Flam" words="exori flam" maglv="3" mana="20" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Exori Mort" words="exori mort" maglv="3" mana="20" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Posion Storm" words="exevo gran mas pox" maglv="40" mana="750" enabled="1">
+<vocation id="2" />
+</spell>
+<spell name="Mass Healing" words="exura gran mas res" maglv="19" mana="150" enabled="1">
+<vocation id="2" />
+</spell>
+<spell name="Change Target" words="exeta res" maglv="4" mana="100" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+<vocation id="3" />
+<vocation id="4" />
+</spell>
+<spell name="Energy Wave" words="exevo mort hur" maglv="20" mana="250" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Fire Wave" words="exevo mort flam" maglv="8" mana="100" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Energy Beam" words="exevo vis lux" maglv="10" mana="100" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Great Energy Beam" words="exevo gran vis lux" maglv="14" mana="200" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Creature Illusion" words="utevo res ina" maglv="10" mana="100" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Mana Shield" words="utamo vita" maglv="4" mana="40" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+<vocation id="3" />
+</spell>
+<spell name="Heal Friend" words="exura sio" maglv="7" mana="70" enabled="1">
+<vocation id="2" />
+</spell>
+<spell name="Haste" words="utani hur" maglv="4" mana="60" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+<vocation id="3" />
+<vocation id="4" />
+</spell>
+<spell name="Strong Haste" words="utani gran hur" maglv="8" mana="100" enabled="1">
+<vocation id="1" />
+<vocation id="2" />
+</spell>
+<spell name="Npc Demon Beam" words="exevo mort vis" maglv="1" mana="100" enabled="1">
+</spell>
+<spell name="Npc Demon Gfb" words="exevo gran mas flam" maglv="1" mana="100" enabled="1">
+</spell>
+<spell name="Npc Gfb" words="adori gran flam flam" maglv="1" mana="100" enabled="1">
+</spell>
+<spell name="Npc Burst Arrow" words="adori flam vis" maglv="1" mana="100" enabled="1">
+</spell>
+<spell name="Npc Magic Posion" words="adori posion" maglv="1" mana="100" enabled="1">
+</spell>
+<spell name="Npc Explo" words="adevo mas hur hur" maglv="1" mana="100" enabled="1">
+</spell>
+<spell name="Npc Fuck" words="fuck kill" maglv="1" mana="100" enabled="1">
+</spell>
+<spell name="Npc Life Drain" words="life drain" maglv="1" mana="100" enabled="1">
+</spell>
+<spell name="Npc HMM" words="adori gran gran" maglv="1" mana="100" enabled="1">
+</spell>
+</spells>

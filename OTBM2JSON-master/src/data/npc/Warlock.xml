@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Warlock" level="1" maglevel="1" access="1" exp="4000" speed="very very fast" pushable="0">
+	<mana now="10000" max="10000"/>
+	<health now="3200" max="3200"/>
+	<look type="130" head="0" body="53" legs="128" feet="114" corpse="2276"/>
+        <combat defense="100" armor="40" change_probability="1" change_per="120" combat_dist="4" runlife="0" damage_color="red"/>
+        <attacks>
+		<attack type="spell" name="adori flam vis" mindamage="100" maxdamage="200" cycleticks="500" probability="50"/>
+		<attack type="spell" name="adevo mas hur hur" mindamage="0" maxdamage="150" cycleticks="1000" probability="50"/>
+		<attack type="spell" name="exevo mort vis" mindamage="0" maxdamage="200" cycleticks="1500" probability="50"/>
+		<attack type="spell" name="exura" mindamage="200" maxdamage="350" cycleticks="3000" probability="45"/>
+        </attacks>
+	<defenses>
+		<defense immunity="fire"/>
+		<defense immunity="posion"/>
+		<defense immunity="energy"/>
+	</defenses>
+	<voices>		
+                <voice sentence="I am the master of the masters!" cycleticks="8000" probability="35"/>
+		<voice sentence="I Will kill you in one spell! BWHUHAHAHA!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+		<summon name="Stone Golem" cycleticks="10000" probability="40" times="6"/>
+        </summons>
+</npc>

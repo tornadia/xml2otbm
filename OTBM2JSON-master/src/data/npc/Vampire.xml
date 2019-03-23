@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Vampire" access="1" level="1" maglevel="1" exp="280" pushable="0" speed="low">
+	<mana now="1" max="1"/>
+	<health now="450" max="450"/>
+	<look type="68" head="73" body="73" legs="73" feet="73" corpse="2170"/>
+        <combat defense="35" armor="25" change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="gray"/>
+        <attacks>
+		<attack type="melee" mindamage="100" maxdamage="160" cycleticks="2000" probability="100"/>
+        	<attack type="spell" name="life drain" mindamage="50" maxdamage="100" cycleticks="3000" probability="50"/>
+		</attacks>
+	<defenses>
+		<defense immunity="posion"/>
+	</defenses>
+	<voices>		
+                <voice sentence="Vamp!" cycleticks="8000" probability="35"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+        </summons>
+</npc>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Hunter" access="1" level="1" maglevel="1" exp="150" speed="very low" pushable="0">
+	<mana now="1" max="1"/>
+	<health now="150" max="150"/>
+	<look type="129" head="95" body="116" legs="121" feet="115" corpse="2276"/>
+        <combat defense="10" armor="10" change_probability="1" change_per="120" combat_dist="3" runlife="40" damage_color="red"/>
+        <attacks>
+		<attack type="distance" name="arrow" mindamage="30" maxdamage="100" cycleticks="500" probability="65"/>
+        </attacks>
+	<defenses>
+	</defenses>
+	<voices>		
+        <voice sentence="Take my arrows!" cycleticks="8000" probability="35"/>
+	</voices>
+	<loot>
+	</loot>
+    <summons>
+    </summons>
+</npc>

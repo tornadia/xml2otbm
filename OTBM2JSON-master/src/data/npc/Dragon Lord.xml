@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Dragon Lord" level="1" maglevel="1" access="1" exp="2100" speed="very low" pushable="0">
+	<mana now="1" max="1"/>
+	<health now="1900" max="1900"/>
+	<look type="39" head="39" body="39" legs="39" feet="39" corpse="2093"/>
+        <combat defense="60" armor="35" change_probability="1" change_per="120" combat_dist="1" runlife="500" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="120" maxdamage="200" cycleticks="2000" probability="100"/>
+		<attack type="spell" name="exura" mindamage="75" maxdamage="150" cycleticks="3000" probability="20"/>
+		<attack type="spell" name="adori gran flam flam" mindamage="100" maxdamage="175" cycleticks="1000" probability="35"/>
+		<attack type="spell" name="exevo mort flam" mindamage="150" maxdamage="250" cycleticks="2500" probability="25"/>
+        </attacks>
+	<voices>		
+                <voice sentence="YOU WILL BURN!" cycleticks="8000" probability="45"/>
+		<voice sentence="ZCCHHHHHHHHHHHHHHHH" cycleticks="10000" probability="45"/>
+	</voices>
+        <summons>
+        </summons>
+	<defenses>
+		<defense immunity="fire"/>
+		<defense immunity="posion"/>
+	</defenses>
+	<loot>
+	</loot>
+</npc>

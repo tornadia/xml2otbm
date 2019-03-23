@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+    <npc monster="1" name="Amazon" access="1" level="50" maglevel="10" exp="60" speed="very very low">
+      <mana now="1" max="1"/>
+      <health now="110" max="110"/>
+      <look type="137" head="113" body="121" legs="95" feet="115" corpse="2218"/>
+      <combat defense="10" armor="10" change_probability="1" change_per="120" combat_dist="3" runlife="30" damage_color="red"/>
+      <attacks>
+        <attack type="melee" mindamage="20" maxdamage="45" cycleticks="2000" probability="100"/>
+        <attack type="distance" name="throwingknife" mindamage="0" maxdamage="40" cycleticks="500" probability="40"/>
+      </attacks>
+      <defenses></defenses>
+      <voices>
+        <voice sentence="Your head will be mine!" cycleticks="8000" probability="35"/>
+      </voices>
+      <loot></loot>
+      <summons></summons>
+    </npc>

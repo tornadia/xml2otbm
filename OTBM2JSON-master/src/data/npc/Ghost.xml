@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+ 
+      <npc maglevel="1" exp="120" name="Ghost" level="1" access="1" monster="1" speed="very low" pushable="0"> 
+        <mana max="1" now="1"/> 
+        <health max="150" now="150"/> 
+        <look type="48" head="36" body="36" legs="36" feet="36" corpse="2127"/> 
+        <combat defense="0" armor="0" change_probability="1" change_per="120" combat_dist="1" runlife="40" damage_color="red"/> 
+        <attacks> 
+          <attack type="spell" name="life drain" mindamage="15" maxdamage="45" cycleticks="3000" probability="80"/> 
+        </attacks> 
+        <defenses> 
+          <defense immunity="physical"/> 
+          <defense immunity="poison"/> 
+        </defenses> 
+        <voices> 
+          <voice sentence="AHAHAHA, do you belive in ghosts?" cycleticks="8000" probability="35"/> 
+        </voices> 
+        <loot> </loot> 
+        <summons> </summons> 
+      </npc> 
+      

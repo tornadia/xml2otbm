@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<account pass="teste" type="0" premDays="0">
+<info Perfil="base.perfil"/>
+    <characters>
+        <character name="Testando" />
+    </characters>
+</account>

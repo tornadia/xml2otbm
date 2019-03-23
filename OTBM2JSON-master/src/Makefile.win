@@ -1,0 +1,101 @@
+# Project: Survival Server
+# Makefile created by Dev-C++ 4.9.9.1
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = Objetos/Survival_Server_private.res
+OBJ  = Objetos/tools.o Objetos/account.o Objetos/creature.o Objetos/house.o Objetos/item.o Objetos/items.o Objetos/luascript.o Objetos/magic.o Objetos/map.o Objetos/networkmessage.o Objetos/npc.o Objetos/player.o Objetos/position.o Objetos/protocol70.o Objetos/protocol.o Objetos/protocolcontroler.o Objetos/spells.o Objetos/status.o Objetos/survivalserv.o Objetos/thing.o Objetos/tile.o Objetos/quests.o Objetos/RegisterWIN32.o Objetos/Rijndael.o $(RES)
+LINKOBJ  = Objetos/tools.o Objetos/account.o Objetos/creature.o Objetos/house.o Objetos/item.o Objetos/items.o Objetos/luascript.o Objetos/magic.o Objetos/map.o Objetos/networkmessage.o Objetos/npc.o Objetos/player.o Objetos/position.o Objetos/protocol70.o Objetos/protocol.o Objetos/protocolcontroler.o Objetos/spells.o Objetos/status.o Objetos/survivalserv.o Objetos/thing.o Objetos/tile.o Objetos/quests.o Objetos/RegisterWIN32.o Objetos/Rijndael.o $(RES)
+LIBS =  -L"lib" -L"C:/Dev-Cpp/other/lua-5.0.2/lib" -lxml2 -llua -llualib -lwsock32  -s 
+INCS =  -I"include"  -I"C:/Dev-Cpp/other/lua-5.0.2/include" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include"  -I"C:/Dev-Cpp/other/lua-5.0.2/include" 
+BIN  = SurvivalServer.exe
+CXXFLAGS = $(CXXINCS) -D__WINDOWS__   -O3
+CFLAGS = $(INCS)   -O3
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before SurvivalServer.exe all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "SurvivalServer.exe" $(LIBS)
+
+Objetos/tools.o: tools.cpp
+	$(CPP) -c tools.cpp -o Objetos/tools.o $(CXXFLAGS)
+
+Objetos/account.o: account.cpp
+	$(CPP) -c account.cpp -o Objetos/account.o $(CXXFLAGS)
+
+Objetos/creature.o: creature.cpp
+	$(CPP) -c creature.cpp -o Objetos/creature.o $(CXXFLAGS)
+
+Objetos/house.o: house.cpp
+	$(CPP) -c house.cpp -o Objetos/house.o $(CXXFLAGS)
+
+Objetos/item.o: item.cpp
+	$(CPP) -c item.cpp -o Objetos/item.o $(CXXFLAGS)
+
+Objetos/items.o: items.cpp
+	$(CPP) -c items.cpp -o Objetos/items.o $(CXXFLAGS)
+
+Objetos/luascript.o: luascript.cpp
+	$(CPP) -c luascript.cpp -o Objetos/luascript.o $(CXXFLAGS)
+
+Objetos/magic.o: magic.cpp
+	$(CPP) -c magic.cpp -o Objetos/magic.o $(CXXFLAGS)
+
+Objetos/map.o: map.cpp
+	$(CPP) -c map.cpp -o Objetos/map.o $(CXXFLAGS)
+
+Objetos/networkmessage.o: networkmessage.cpp
+	$(CPP) -c networkmessage.cpp -o Objetos/networkmessage.o $(CXXFLAGS)
+
+Objetos/npc.o: npc.cpp
+	$(CPP) -c npc.cpp -o Objetos/npc.o $(CXXFLAGS)
+
+Objetos/player.o: player.cpp
+	$(CPP) -c player.cpp -o Objetos/player.o $(CXXFLAGS)
+
+Objetos/position.o: position.cpp
+	$(CPP) -c position.cpp -o Objetos/position.o $(CXXFLAGS)
+
+Objetos/protocol70.o: protocol70.cpp
+	$(CPP) -c protocol70.cpp -o Objetos/protocol70.o $(CXXFLAGS)
+
+Objetos/protocol.o: protocol.cpp
+	$(CPP) -c protocol.cpp -o Objetos/protocol.o $(CXXFLAGS)
+
+Objetos/protocolcontroler.o: protocolcontroler.cpp
+	$(CPP) -c protocolcontroler.cpp -o Objetos/protocolcontroler.o $(CXXFLAGS)
+
+Objetos/spells.o: spells.cpp
+	$(CPP) -c spells.cpp -o Objetos/spells.o $(CXXFLAGS)
+
+Objetos/status.o: status.cpp
+	$(CPP) -c status.cpp -o Objetos/status.o $(CXXFLAGS)
+
+Objetos/survivalserv.o: survivalserv.cpp
+	$(CPP) -c survivalserv.cpp -o Objetos/survivalserv.o $(CXXFLAGS)
+
+Objetos/thing.o: thing.cpp
+	$(CPP) -c thing.cpp -o Objetos/thing.o $(CXXFLAGS)
+
+Objetos/tile.o: tile.cpp
+	$(CPP) -c tile.cpp -o Objetos/tile.o $(CXXFLAGS)
+
+Objetos/quests.o: quests.cpp
+	$(CPP) -c quests.cpp -o Objetos/quests.o $(CXXFLAGS)
+
+Objetos/RegisterWIN32.o: RegisterWIN32.cpp
+	$(CPP) -c RegisterWIN32.cpp -o Objetos/RegisterWIN32.o $(CXXFLAGS)
+
+Objetos/Rijndael.o: Rijndael.cpp
+	$(CPP) -c Rijndael.cpp -o Objetos/Rijndael.o $(CXXFLAGS)
+
+Objetos/Survival_Server_private.res: Survival_Server_private.rc 
+	$(WINDRES) -i Survival_Server_private.rc --input-format=rc -o Objetos/Survival_Server_private.res -O coff 

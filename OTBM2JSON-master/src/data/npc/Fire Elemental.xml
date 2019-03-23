@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Fire Elemental" level="1" maglevel="1" access="1" exp="220" pushable="0" speed="low">
+	<mana now="10000" max="10000"/>
+	<health now="280" max="280"/>
+	<look type="49" head="35" body="35" legs="35" feet="35" corpse="1185"/>
+        <combat defense="30" armor="15"  change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="40" maxdamage="100" cycleticks="2000" probability="100"/>
+		<attack type="spell" name="adori gran flam flam" mindamage="70" maxdamage="100" cycleticks="1000" probability="22"/>
+		<attack type="spell" name="adevo mas hur hur" mindamage="0" maxdamage="160" cycleticks="1500" probability="32"/>
+        </attacks>
+	<voices>		
+                <voice sentence="FIRE FIRE FIRE!" cycleticks="8000" probability="45"/>
+		<voice sentence="BURNNN!" cycleticks="10000" probability="45"/>
+	</voices>
+        <summons>
+        </summons>
+	<defenses>
+		<defense immunity="fire"/>
+	</defenses>
+	<loot>
+	</loot>
+</npc>

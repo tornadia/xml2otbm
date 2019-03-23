@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Giant Spider" access="1" level="1" maglevel="50" exp="900" speed="very fast" pushable="0">
+	<mana now="1" max="1"/>
+	<health now="1300" max="1300"/>
+	<look type="38" head="38" body="38" legs="38" feet="38" corpse="2069"/>
+        <combat defense="45" armor="30" change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="green"/>
+        <attacks>
+		<attack type="melee" mindamage="110" maxdamage="300" cycleticks="2000" probability="100"/>
+		<attack type="spell" name="adori posion" mindamage="10" maxdamage="80" cycleticks="2000" probability="50"/>
+        </attacks>
+	<defenses>
+		<defense immunity="fire"/>
+		<defense immunity="posion"/>
+	</defenses>
+	<voices>		
+                <voice sentence="Dont kill my son!" cycleticks="8000" probability="35"/>
+		<voice sentence="SCHIIII!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loots>
+	</loots>
+        <summons>
+		<summon name="Poison Spider" cycleticks="5000" probability="50" times="5"/>
+        </summons>
+</npc>

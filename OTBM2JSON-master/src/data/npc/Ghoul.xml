@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<npc speed="very very low" maglevel="1" exp="85" name="Ghoul" level="1" access="1" pushable="1" monster="1">
+	<mana now="1" max="1"/>
+	<health now="100" max="100"/>
+	<look type="18" head="36" body="36" legs="36" feet="36" corpse="2065"/>
+        <combat defense="10" armor="10" change_probability="1" change_per="120" combat_dist="1" runlife="30" damage_color="red"/> 
+        <attacks> 
+		  <attack type="melee" mindamage="20" maxdamage="50" cycleticks="2000" probability="100"/>
+          <attack type="spell" name="life drain" mindamage="0" maxdamage="25" cycleticks="3000" probability="60"/> 
+        </attacks> 
+        <defenses> 
+          <defense immunity="poison"/> 
+        </defenses> 
+        <voices> 
+          <voice sentence="Zumbsa.. LOL!" cycleticks="8000" probability="35"/> 
+        </voices> 
+        <loot> </loot> 
+        <summons> </summons> 
+    </npc> 

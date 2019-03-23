@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Black Knight" access="1" level="1" maglevel="1" exp="1600" speed="very very fast" pushable="0">
+	<mana now="1" max="1"/>
+	<health now="1800" max="1800"/>
+	<look type="131" head="114" body="114" legs="114" feet="114" corpse="2276"/>
+        <combat defense="100" armor="35" change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="120" maxdamage="300" cycleticks="2000" probability="100"/>
+		<attack type="distance" name="arrow" mindamage="0" maxdamage="180" cycleticks="2000" probability="51"/>
+        </attacks>
+	<defenses>
+		<defense immunity="fire"/>
+		<defense immunity="posion"/>
+		<defense immunity="energy"/>
+	</defenses>
+	<voices>		
+                <voice sentence="Hurt me if you can!" cycleticks="8000" probability="35"/>
+		<voice sentence="I am the best warrior in the world!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+        </summons>
+</npc>

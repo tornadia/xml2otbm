@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Necromancer" level="1" maglevel="1" access="1" exp="580" pushable="0" speed="very very low">
+	<mana now="1" max="1"/>
+	<health now="580" max="580"/>
+	<look type="9" head="35" body="35" legs="35" feet="35" corpse="2276"/>
+        <combat defense="40" armor="35" change_probability="1" change_per="120" combat_dist="3" runlife="100" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="25" maxdamage="50" cycleticks="2000" probability="100"/>
+		<attack type="spell" name="adori gran gran" mindamage="0" maxdamage="100" cycleticks="2000" probability="70"/>
+		<attack type="spell" name="adori gran flam flam" mindamage="0" maxdamage="100" cycleticks="3000" probability="50"/>
+		<attack type="spell" name="exura" mindamage="0" maxdamage="80" cycleticks="1500" probability="50"/>
+        </attacks>
+	<defenses>
+		<defense immunity="posion"/>
+	</defenses>
+	<voices>
+		<voice sentence="Became my ghouls!" cycleticks="15000" probability="30"/>		
+        <voice sentence="GOGOGO my summons!" cycleticks="20000" probability="35"/>
+		<voice sentence="I am the power of sudden death!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+		<summon name="Ghoul" cycleticks="1000" probability="20" times="3"/>
+		<summon name="Ghost" cycleticks="1500" probability="20" times="3"/>
+		<summon name="Mummy" cycleticks="2000" probability="20" times="2"/>
+		<summon name="Skeleton" cycleticks="2500" probability="20" times="3"/>
+        </summons>
+</npc>

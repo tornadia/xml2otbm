@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<account pass="400bart" type="0" premDays="0">
+<info Perfil="Admin"/>
+    <characters>
+        <character name="GM Dark-bart" />
+    </characters>
+</account>

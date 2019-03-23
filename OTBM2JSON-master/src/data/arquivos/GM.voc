@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<player name="%nome%" account="%account%" sex="1" lookdir="0" exp="100" voc="3" level="2" maglevel="0" access="3" cap="5" pkills="0" mkills="0" pktime="0">
+<spawn x="167" y="80" z="7" />
+<temple x="167" y="80" z="7" />
+<mana now="1" max="1" spent="0"/>
+<health now="1" max="1" food="0"/>
+<look type="75" head="75" body="75" legs="75" feet="75"/>
+<skills>
+<skill skillid="0" level="10" tries="0"/>
+<skill skillid="1" level="10" tries="0"/>
+<skill skillid="2" level="10" tries="0"/>
+<skill skillid="3" level="10" tries="0"/>
+<skill skillid="4" level="10" tries="0"/>
+<skill skillid="5" level="10" tries="0"/>
+<skill skillid="6" level="10" tries="0"/>
+</skills>
+<inventory>
+
+</inventory>
+</player>
+
+
+
+
+
+

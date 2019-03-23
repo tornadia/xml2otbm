@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Demon" level="1" maglevel="1" access="1" exp="6000" pushable="0" speed="fast">
+	<mana now="1" max="1"/>
+	<health now="8200" max="8200"/>
+	<look type="35" head="35" body="35" legs="35" feet="35" corpse="2130"/>
+        <combat defense="150" armor="60" change_probability="1" change_per="120" combat_dist="1" runlife="0" damage_color="red"/>
+        <attacks>
+		<attack type="melee" mindamage="210" maxdamage="500" cycleticks="2000" probability="100"/>
+		<attack type="spell" name="exevo gran mas flam" mindamage="100" maxdamage="250" cycleticks="1000" probability="43"/>
+		<attack type="spell" name="exevo mort vis" mindamage="300" maxdamage="400" cycleticks="2500" probability="38"/>
+		<attack type="spell" name="exura" mindamage="100" maxdamage="300" cycleticks="3000" probability="25"/>
+        </attacks>
+	<defenses>
+		<defense immunity="fire"/>
+		<defense immunity="posion"/>
+		<defense immunity="energy"/>
+	</defenses>
+	<voices>
+		<voice sentence="Your soul will be mine!" cycleticks="15000" probability="30"/>		
+        	<voice sentence="I SMELL FEAR!" cycleticks="20000" probability="35"/>
+		<voice sentence="BWUHAHAHAHAHA!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+		<summon name="Fire Elemental" cycleticks="10000" probability="40" times="3"/>
+        </summons>
+</npc>

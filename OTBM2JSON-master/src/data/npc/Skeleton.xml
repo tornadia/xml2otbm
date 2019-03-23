@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Skeleton" access="1" level="1" maglevel="1" exp="35" pushable="1" speed="very low">
+	<mana now="1" max="1"/>
+	<health now="50" max="50"/>
+	<look type="33" head="73" body="73" legs="73" feet="73" corpse="2257"/>
+        <combat defense="3" armor="3" change_probability="1" change_per="120" combat_dist="1" runlife="20" damage_color="gray"/>
+        <attacks>
+		<attack type="melee" mindamage="12" maxdamage="25" cycleticks="2000" probability="100"/>
+		<attack type="spell" name="life drain" mindamage="1" maxdamage="15" cycleticks="3000" probability="40"/>
+        </attacks>
+	<defenses>
+	</defenses>
+	<voices>		
+                <voice sentence="SKELS!" cycleticks="8000" probability="35"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+        </summons>
+</npc>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<npc monster="1" name="Snake" access="1" level="1" maglevel="1" exp="10" pushable="1" speed="very very low">
+	<mana now="1" max="1"/>
+	<health now="15" max="15"/>
+	<look type="28" head="36" body="36" legs="36" feet="36" corpse="2029"/>
+        <combat defense="0" armor="1" change_probability="1" change_per="120" combat_dist="1" runlife="5" damage_color="green"/>
+        <attacks>
+		<attack type="melee" mindamage="5" maxdamage="10" cycleticks="2000" probability="100"/>
+        </attacks>
+	<defenses>
+	</defenses>
+	<voices>		
+                <voice sentence="ZUZBUZBZUZB!" cycleticks="8000" probability="35"/>
+		<voice sentence="Schciiii!" cycleticks="10000" probability="30"/>
+	</voices>
+	<loot>
+	</loot>
+        <summons>
+        </summons>
+</npc>
