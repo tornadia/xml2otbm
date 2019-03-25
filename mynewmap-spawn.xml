@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<spawns>
+	<spawn centerx="477" centery="3" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="160" direction="2" />
+	</spawn>
+	<spawn centerx="480" centery="4" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="180" direction="2" />
+	</spawn>
+	<spawn centerx="478" centery="5" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="180" direction="2" />
+	</spawn>
+	<spawn centerx="454" centery="6" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="483" centery="6" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="140" direction="2" />
+	</spawn>
+	<spawn centerx="478" centery="8" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="180" direction="2" />
+	</spawn>
+	<spawn centerx="430" centery="9" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="483" centery="9" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="140" direction="2" />
+	</spawn>
+	<spawn centerx="480" centery="10" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="180" direction="2" />
+	</spawn>
+	<spawn centerx="439" centery="11" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="476" centery="11" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="160" direction="2" />
+	</spawn>
+	<spawn centerx="429" centery="14" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="412" centery="15" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="128" centery="17" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="383" centery="17" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="402" centery="18" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="157" centery="19" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="180" centery="19" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="141" centery="22" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="393" centery="23" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="431" centery="25" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="397" centery="26" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="459" centery="26" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="140" direction="2" />
+	</spawn>
+	<spawn centerx="196" centery="27" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="449" centery="28" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="158" centery="29" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="401" centery="29" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="437" centery="29" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="462" centery="29" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="140" direction="2" />
+	</spawn>
+	<spawn centerx="467" centery="29" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="80" direction="2" />
+	</spawn>
+	<spawn centerx="223" centery="31" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="394" centery="31" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="456" centery="31" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="140" direction="2" />
+	</spawn>
+	<spawn centerx="185" centery="33" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="459" centery="33" centerz="7" radius="1">
+		<monster name="mummy" x="0" y="0" z="7" spawntime="120" direction="2" />
+	</spawn>
+	<spawn centerx="419" centery="35" centerz="7" radius="1">
+		<monster name="ghost" x="0" y="0" z="7" spawntime="75" direction="2" />
+	</spawn>
+	<spawn centerx="434" centery="39" centerz="7" radius="1">
+		<monster name="ghost" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="91" centery="40" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="40" direction="2" />
+	</spawn>
+	<spawn centerx="433" centery="40" centerz="7" radius="1">
+		<monster name="ghost" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="45" centery="41" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="149" centery="41" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="80" direction="2" />
+	</spawn>
+	<spawn centerx="418" centery="42" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="70" direction="2" />
+	</spawn>
+	<spawn centerx="447" centery="42" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="90" direction="2" />
+	</spawn>
+	<spawn centerx="29" centery="48" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="469" centery="49" centerz="7" radius="1">
+		<monster name="black knight" x="0" y="0" z="7" spawntime="200" direction="2" />
+	</spawn>
+	<spawn centerx="45" centery="51" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="424" centery="53" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="416" centery="55" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="105" direction="2" />
+	</spawn>
+	<spawn centerx="29" centery="60" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="10" centery="73" centerz="7" radius="1">
+		<monster name="dragon lord" x="0" y="0" z="7" spawntime="140" direction="2" />
+	</spawn>
+	<spawn centerx="69" centery="81" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="49" centery="83" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="474" centery="84" centerz="7" radius="1">
+		<monster name="djinn" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="476" centery="84" centerz="7" radius="1">
+		<monster name="djinn" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="488" centery="87" centerz="7" radius="1">
+		<monster name="djinn" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="382" centery="94" centerz="7" radius="1">
+		<monster name="jonh" x="0" y="0" z="7" spawntime="10" direction="2" />
+	</spawn>
+	<spawn centerx="10" centery="95" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="52" centery="95" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="469" centery="96" centerz="7" radius="1">
+		<monster name="djinn" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="484" centery="99" centerz="7" radius="1">
+		<monster name="djinn" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="467" centery="107" centerz="7" radius="1">
+		<monster name="djinn" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="13" centery="110" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="28" centery="110" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="416" centery="111" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="413" centery="119" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="33" centery="132" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="80" direction="2" />
+	</spawn>
+	<spawn centerx="233" centery="132" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="120" direction="2" />
+	</spawn>
+	<spawn centerx="152" centery="133" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="193" centery="133" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="201" centery="133" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="91" centery="135" centerz="7" radius="1">
+		<monster name="ghost" x="0" y="0" z="7" spawntime="80" direction="2" />
+	</spawn>
+	<spawn centerx="101" centery="135" centerz="7" radius="1">
+		<monster name="ghost" x="0" y="0" z="7" spawntime="80" direction="2" />
+	</spawn>
+	<spawn centerx="147" centery="135" centerz="7" radius="1">
+		<monster name="demon skeleton" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="150" centery="135" centerz="7" radius="1">
+		<monster name="ghost" x="0" y="0" z="7" spawntime="90" direction="2" />
+	</spawn>
+	<spawn centerx="158" centery="135" centerz="7" radius="1">
+		<monster name="ghost" x="0" y="0" z="7" spawntime="90" direction="2" />
+	</spawn>
+	<spawn centerx="160" centery="138" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="80" direction="2" />
+	</spawn>
+	<spawn centerx="197" centery="138" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="237" centery="138" centerz="7" radius="1">
+		<monster name="warlock" x="0" y="0" z="7" spawntime="200" direction="2" />
+	</spawn>
+	<spawn centerx="247" centery="138" centerz="7" radius="1">
+		<monster name="warlock" x="0" y="0" z="7" spawntime="200" direction="2" />
+	</spawn>
+	<spawn centerx="147" centery="139" centerz="7" radius="1">
+		<monster name="ghoul" x="0" y="0" z="7" spawntime="90" direction="2" />
+	</spawn>
+	<spawn centerx="231" centery="139" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="120" direction="2" />
+	</spawn>
+	<spawn centerx="98" centery="140" centerz="7" radius="1">
+		<monster name="ghoul" x="0" y="0" z="7" spawntime="80" direction="2" />
+	</spawn>
+	<spawn centerx="107" centery="140" centerz="7" radius="1">
+		<monster name="capitan barbulha" x="0" y="0" z="7" spawntime="10" direction="2" />
+	</spawn>
+	<spawn centerx="151" centery="141" centerz="7" radius="1">
+		<monster name="ghoul" x="0" y="0" z="7" spawntime="80" direction="2" />
+	</spawn>
+	<spawn centerx="193" centery="141" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="201" centery="141" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="110" direction="2" />
+	</spawn>
+	<spawn centerx="240" centery="141" centerz="7" radius="1">
+		<monster name="necromancer" x="0" y="0" z="7" spawntime="120" direction="2" />
+	</spawn>
+	<spawn centerx="36" centery="144" centerz="7" radius="1">
+		<monster name="dragon lord" x="0" y="0" z="7" spawntime="150" direction="2" />
+	</spawn>
+	<spawn centerx="38" centery="144" centerz="7" radius="1">
+		<monster name="dragon lord" x="0" y="0" z="7" spawntime="150" direction="2" />
+	</spawn>
+	<spawn centerx="223" centery="299" centerz="7" radius="1">
+		<monster name="herry" x="0" y="0" z="7" spawntime="10" direction="2" />
+	</spawn>
+	<spawn centerx="323" centery="331" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="150" direction="2" />
+	</spawn>
+	<spawn centerx="308" centery="338" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="326" centery="347" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="100" direction="2" />
+	</spawn>
+	<spawn centerx="309" centery="350" centerz="7" radius="1">
+		<monster name="dragon lord" x="0" y="0" z="7" spawntime="180" direction="2" />
+	</spawn>
+	<spawn centerx="285" centery="353" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="271" centery="358" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="250" centery="360" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="351" centery="367" centerz="7" radius="1">
+		<monster name="dragon lord" x="0" y="0" z="7" spawntime="200" direction="2" />
+	</spawn>
+	<spawn centerx="357" centery="367" centerz="7" radius="1">
+		<monster name="dragon lord" x="0" y="0" z="7" spawntime="200" direction="2" />
+	</spawn>
+	<spawn centerx="320" centery="368" centerz="7" radius="1">
+		<monster name="dragon lord" x="0" y="0" z="7" spawntime="130" direction="2" />
+	</spawn>
+	<spawn centerx="324" centery="372" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="120" direction="2" />
+	</spawn>
+	<spawn centerx="283" centery="373" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="354" centery="375" centerz="7" radius="1">
+		<monster name="dragon lord" x="0" y="0" z="7" spawntime="200" direction="2" />
+	</spawn>
+	<spawn centerx="267" centery="376" centerz="7" radius="1">
+		<monster name="dragon" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="77" centery="424" centerz="7" radius="1">
+		<monster name="george" x="0" y="0" z="7" spawntime="10" direction="2" />
+	</spawn>
+</spawns>
